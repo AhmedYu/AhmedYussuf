@@ -1,0 +1,309 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+  height: 100%;
+}
+
+
+
+header , footer{
+width: 100vw;
+margin: auto;
+}
+
+header img {
+ display: block;
+ margin: 0 auto;
+
+
+
+}
+
+nav ul {
+
+line-height: 40px;
+text-align: center;
+list-style: none;
+font-family: 'Playfair Display SC', serif;
+
+
+
+}
+nav li  {
+ display: inline;
+ font-size: 1.5rem;
+ padding: 8px 10px ;
+ border-radius: 4px;
+
+
+
+
+}
+nav {
+margin-top: 10px;
+}
+nav a:hover {
+ text-shadow: 1px 1px blue;
+ color: grey;
+}
+nav a {
+ text-decoration: none;
+}
+li a, footer  , .contact-col i {
+   color: #073763ff;
+}
+
+
+nav {
+background: linear-gradient(347deg, rgba(238,174,202,1) 0%, rgba(116,27,71,1) 100%);
+}
+
+
+.about_me {
+/* max-height: inherit; */
+max-width: 1200px;
+margin: 10px auto;
+/* height: inherit; */
+
+height: 100vh;
+
+text-align: center;
+
+}
+
+.about_me img {
+ /* border-radius: 50%; */
+float: left;
+margin-right: 20px;
+padding-right: 20px;
+
+}
+.about_me p {
+
+width: 89%;
+margin-left: 3rem;
+font-size: 2em;
+font-weight: bolder;
+
+font-family: 'Indie Flower', cursive;
+
+
+}
+
+/* resume */
+
+.resume {
+ height: 100vh;
+ width: 90%;
+margin-bottom: 30px;
+padding-bottom: 20px;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+
+}
+.about-main {
+ margin: 20px auto 20px auto;
+}
+
+
+
+
+/* footer and it's sections */
+footer {
+
+ background: linear-gradient(347deg, rgba(238,174,202,1) 0%, rgba(116,27,71,1) 100%);
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+font-size: 1em;
+height: 120px;
+
+color: #0fa9b9;
+
+
+}
+.contact {
+ display: flex;
+padding: 0 15px;
+ align-items: baseline;
+
+}
+div .fab, div .fas  {
+ font-size: 3em;
+ color: white;
+
+
+ /* padding-top: 10px;
+ padding-bottom: 10px; */
+ /* line-height: 1.4em; */
+}
+.contact-col {
+ padding-right: 1.2em;
+ margin-right: 2em;
+ /* font-size: 2em; */
+}
+footer .copy-right {
+ color: white;
+ font-style: italic;
+}
+
+/* footer Ends */
+/* resume body */
+
+div span {
+ font-weight: bold;
+}
+
+main ul  {
+ width: 89%;
+ margin: 10px auto 30px auto;
+
+}
+main p:nth-of-type(3) {
+  line-height: 1.5rem;
+
+}
+
+/* Photography page */
+#wrapper {
+   /* min-height: 100vh; */
+ display:  flex;
+ flex-direction: column;
+ /* justify-content:center; */
+ /* align-items: center; */
+ /* flex-wrap: wrap; */
+flex-flow: column wrap;
+height: 100%;
+}
+main {
+  flex: 2;
+  height: 98vh;
+}
+footer , header{
+  flex:1;
+}
+
+/* photography & resume */
+
+
+.main {
+
+ max-width: 1200px;
+ margin: 20px auto;
+ padding-bottom: 20px;
+
+}
+
+div .hero-image {
+
+ background-image: url(../images/hero.jpg);
+ background-position: center;
+ background-size: cover;
+ width: 100%;
+ margin:  auto;
+ /* height: 700px; */
+ display: flex;
+   flex-direction: column;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+
+
+}
+#preview {
+ width: 100%;
+}
+div .gallery {
+
+ width: 89%;
+
+
+margin: 10px auto;
+
+
+}
+.gallery-thumbnails img{
+ border-radius: 4px;
+ padding: 2px;
+ width: 150px;
+ height: 106px;
+}
+.gallery-thumbnails {
+ /* height: 20em; */
+margin-bottom: 30px;
+padding-bottom: 20px;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.contact {
+ padding-top: 10px;
+ margin-top: 20px;
+}
+
+
+
+
+.hero-image h2 {
+ text-align: center;
+ line-height: 100px;
+ font-size: 2.8em;
+ /* text-shadow: 2px 2px white; */
+ color: white;
+ font-family: 'Permanent Marker', cursive;
+
+}
+.photography-conten {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen  and (max-width: 760px) {
+ nav li  {
+   display: inline;
+   font-size: 1rem;
+   padding: 5px 6px ;
+   border-radius: 4px;
+
+
+
+
+ }
+
+
+ .about_me img {
+
+float: none;
+ margin: 10px 20px;
+
+
+ }
+.about_me p {
+width: 89%;
+
+/* margin: 20px auto 20px auto; */
+font-size: 1em;
+
+}
+.copy-right {
+ font-size: .7em;
+}
+.fas , .fab {
+ font-size: 1.5em;
+}
+
+}
+/* less than 430 */
+@media only screen  and (max-width: 460px) {
+ .about_me p {
+   font-size: 1.5em;
+   overflow: hidden;
+ }
+}
